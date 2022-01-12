@@ -1,6 +1,6 @@
 name: "rsyslog"
 description: "rsyslog addon"
-version: "2.3"
+version: "2.4"
 slug: "rsyslog"
 arch:
   - aarch64
@@ -16,7 +16,6 @@ map:
 hassio_api: true
 homeassistant_api: false
 host_network: false
-udev: true
 
 options:
   log_folder: null
