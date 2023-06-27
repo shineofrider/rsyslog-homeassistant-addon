@@ -16,7 +16,6 @@ map:
 hassio_api: true
 homeassistant_api: false
 host_network: false
-privileged: true
 
 options:
   log_folder: null
