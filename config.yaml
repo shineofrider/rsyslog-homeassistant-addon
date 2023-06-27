@@ -1,7 +1,8 @@
 name: "rsyslog"
 description: "rsyslog addon"
-version: "2.7"
+version: "2.8"
 slug: "rsyslog"
+init: false
 arch:
   - aarch64
   - amd64
