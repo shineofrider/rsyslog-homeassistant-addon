@@ -8,5 +8,5 @@ RUN apk update \
 COPY rsyslog.conf /etc/rsyslog.conf
 COPY run.sh /run.sh
 
-RUN chmod a+x /run.sh /run.sh
+RUN chmod a+x /run.sh
 CMD [ "/run.sh" ]
